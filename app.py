@@ -8,7 +8,7 @@ st.set_page_config(page_title="IMDb Movie Dashboard", layout="wide")
 
 st.title("IMDb Top 250 Movies Dashboard")
 
-df = pd.read_csv(r"D:\FDE_LAB\ToP 250 movies on imdb in 2026 (1).csv")
+df = pd.read_csv("ToP 250 movies on imdb in 2026 (1).csv")
 
 
 st.markdown("""
